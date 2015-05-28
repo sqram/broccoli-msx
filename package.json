@@ -1,0 +1,21 @@
+{
+  "name": "broccoli-msx",
+  "version": "1.0.0",
+  "description": "Broccoli plugin to precompile Mithril msx views into js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "msx",
+    "mithril",
+    "js",
+    "broccoli"
+  ],
+  "author": "sqram",
+  "license": "MIT",
+  "dependencies": {
+    "broccoli-filter": "^0.1.14",
+    "msx": "^0.4.1"
+  }
+}
