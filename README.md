@@ -25,7 +25,7 @@ js = msx(js, {precompiled: false})
 module.exports = mergeTrees([js])
 ```
 
-`.jsx` files are automatically renamed to `.js`
+`.msx` files are automatically renamed to `.js`
 
 ## API
 
@@ -33,7 +33,7 @@ module.exports = mergeTrees([js])
 
 ## Options
 
-`options` - options accepted by 
+`options` - options accepted by
 [`msx.transform()`](https://github.com/insin/msx/#module-api).
 
 `{ harmony: true|false } ` - enables/disables ES6 transforms supported by JSX Transformer. Default: `false`
