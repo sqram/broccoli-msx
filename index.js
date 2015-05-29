@@ -19,7 +19,7 @@ MsxFilter.prototype = Object.create(Filter.prototype);
 MsxFilter.prototype.constructor = MsxFilter;
 
 MsxFilter.prototype.extensions = ['msx', 'js'];
-MsxFilter.prototype.targetExtensions = 'js';
+MsxFilter.prototype.targetExtension = 'js';
 
 
 MsxFilter.prototype.processString = function(str, relativePath) {
